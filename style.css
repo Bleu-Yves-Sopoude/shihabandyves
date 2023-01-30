@@ -1,0 +1,27 @@
+
+<styles>
+
+nav-link:hover {
+  color: black;
+  background: white;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+.nav-link {
+  font-family: 'Trocchi', serif;
+   display: flex;
+  text-decoration: none;
+  color: pink;
+  padding: 1em;
+}
+</styles>
